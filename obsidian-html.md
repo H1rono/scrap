@@ -40,23 +40,30 @@ site_name: "H1rono/scrap"
 # 配信する際のルートパス
 html_url_prefix: "/scrap"
 
-# TODO: 多分faviconに関連するところ
-# file_exports:
-#   - encoding: binary
-#     src: Resources/Includes/favicon.ico
-#     dst: favicon.ico
+# favicon設定
+file_exports:
+  - encoding: binary
+    src: assets/favicon.ico
+    dst: favicon.ico
 
 # これデフォルトだとコメントアウトされてなくてエラーになる
 # no_tabs: "<REMOVED>"
+
 features:
   rss:
     TODO  # まだ未設定
 ```
+
+## faviconの設定
+
+[参考commit](https://github.com/H1rono/scrap/commit/17fa3af72f16f830614ac5e991a1312278ff6533)
+該当ドキュメント: [Export vault files to html output - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/tweaking/export-vault-files-to-html-output.html)
+
+[Configuration Options - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/configuration-options.html)のページに書いてなくて焦った
 
 ## 気になったとこ/TODO
 
 - タイトルどうにかなりませんか
 	- どのページも`site_name`に指定したものになってる
 - RSS
-- ファビコン
 - プラグイン入れられるんだろうか
