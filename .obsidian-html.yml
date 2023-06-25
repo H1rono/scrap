@@ -288,15 +288,15 @@ toggles:
       show_inclusions_in_graph: True
 
     rss:
-      enabled: False
-      host_root: "https://localhost:8000/"
+      enabled: True
+      host_root: "https://h1rono.github.io/scrap"
       styling:
         show_icon: True
       channel:
-        title: "Notes"
-        website_link: "<https://your website.com>"
-        description: "<your description>"
-        language_code: "en-us"
+        title: "H1rono/scrap"
+        website_link: "https://h1rono.github.io/scrap"
+        description: "Obsidianメモ置き場"
+        language_code: "ja-jp"
         managing_editor: "n/a"
         web_master: "n/a"
       items:
