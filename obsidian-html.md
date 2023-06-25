@@ -30,10 +30,32 @@ Usage↓
 ```yml
 # 後述の`obsidian_entrypoint_path_str`を手掛かりに推測されるらしい
 obsidian_folder_path_str: "<DEPRECATED>"
+
 # indexのpath
 obsidian_entrypoint_path_str: "./README.md"
+
+# ページの左上(多分)に出るやつ、document.titleもこの値っぽい
+site_name: "H1rono/scrap"
+
+# 配信する際のルートパス
+html_url_prefix: "/scrap"
+
+# TODO: 多分faviconに関連するところ
+# file_exports:
+#   - encoding: binary
+#     src: Resources/Includes/favicon.ico
+#     dst: favicon.ico
+
+# これデフォルトだとコメントアウトされてなくてエラーになる
+# no_tabs: "<REMOVED>"
+features:
+  rss:
+    TODO  # まだ未設定
 ```
 
-## 気になったとこ
+## 気になったとこ/TODO
 
 - タイトルどうにかなりませんか
+	- どのぺ
+- RSS
+- ファビコン
