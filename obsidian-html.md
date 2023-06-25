@@ -13,9 +13,9 @@ docs: [ObsidianHtml/Documentation](https://obsidian-html.github.io/index.html)
 Usage↓
 
 - indexのmdファイルを指定してビルド: `obsidianhtml run -f index.md`
-	- サブコマンド`run`はbuild + serve(localhost:8888)
+    - サブコマンド`run`はbuild + serve(localhost:8888)
 - config(YAML)ファイルを指定してbuild: `obsidianhtml convert -i config.yml`
-	- サブコマンド`convert`はbuildのみ
+    - サブコマンド`convert`はbuildのみ
 
 完全理解したのでconfigを見る
 
@@ -61,9 +61,16 @@ features:
 
 [Configuration Options - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/configuration-options.html)のページに書いてなくて焦った
 
+## RSS
+
+ドキュメント: [RSS Feed - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/features/rss-feed.html)
+
+TODO
+
 ## 気になったとこ/TODO
 
 - タイトルどうにかなりませんか
-	- どのページも`site_name`に指定したものになってる
+    - どのページも`site_name`に指定したものになってる
 - RSS
 - プラグイン入れられるんだろうか
+- ページ右側のカラムがTOCになるはずなのになってない
