@@ -140,13 +140,10 @@ html_custom_footer_inclusions: []
 
 navbar_links: []
 
-file_exports: []
-# file_exports:
-#   - encoding: binary
-#     src: Resources/Includes/favicon.ico
-#     dst: favicon.ico
-#   - src: Resources/Includes/christmas_snowflakes.js
-#     dst: obs.html/static/christmas_snowflakes.js
+file_exports:
+  - encoding: binary
+    src: assets/favicon.ico
+    dst: favicon.ico
 
 ##########################################################################
 #                    OPTIONAL BEHAVIOR / FEATURES                        #
