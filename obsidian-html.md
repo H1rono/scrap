@@ -17,7 +17,22 @@ Usage↓
 - config(YAML)ファイルを指定してbuild: `obsidianhtml convert -i config.yml`
 	- サブコマンド`convert`はbuildのみ
 
-完全理解
+完全理解したのでconfigを見る
+
+## Config
+
+[Configuration Options - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/configuration-options.html)
+
+デフォルトのconfigは`obsidianhtml export default-config`で見られる
+
+めちゃくちゃでかいので大事そうなとこだけ抜き出す(値はこのリポジトリの設定)
+
+```yml
+# 後述の`obsidian_entrypoint_path_str`を手掛かりに推測されるらしい
+obsidian_folder_path_str: "<DEPRECATED>"
+# indexのpath
+obsidian_entrypoint_path_str: "./README.md"
+```
 
 ## 気になったとこ
 

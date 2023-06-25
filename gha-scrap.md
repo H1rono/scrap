@@ -11,4 +11,7 @@
 	- [GitHub PagesのデプロイにCustom GitHub Actions Workflows (beta) を試す : ビジネスとIT活用に役立つ情報（株式会社アーティス）](https://www.asobou.co.jp/blog/web/github-pages)
 	- [actions/deploy-pages](https://github.com/actions/deploy-pages)
 
+## 過去の自分ありがとう
 
+- GitHub Pages使ってるworkflow: [2023_robokit/.github/workflows/main.yml at main · rogy-AquaLab/2023_robokit · GitHub](https://github.com/rogy-AquaLab/2023_robokit/blob/main/.github/workflows/main.yml)
+- Python使ってるworkflow: [stam-prolog/.github/workflows/python.yml at main · traP-jp/stam-prolog · GitHub](https://github.com/traP-jp/stam-prolog/blob/main/.github/workflows/python.yml)
