@@ -28,7 +28,9 @@ jobs:
       - name: Install obsidian-html
         run: pip install obsidianhtml==$OBSIDIAN_HTML_VERSION
       - name: Build
-        run: python3 -m obsidianhtml convert -i .obsidian-html.yml
+        run: |
+          mkdir .obsidian
+          python3 -m obsidianhtml convert -i .obsidian-html.yml
       - name: Configure GitHub Pages
         if: ${{ github.event_name != 'pull_request' }}
         id: pages
