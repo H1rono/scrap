@@ -83,7 +83,53 @@ features:
 ```
 
 https://h1rono.github.io/scrap/obs.html/rss/feed.xml にフィード配信されてる
-が、[vivaldiのRSS機能]
+が、[vivaldiのRSS購読](https://help.vivaldi.com/ja/mail-ja/mail-feeds-ja/feeds/)で見たら↓の問題点が
+
+- 各記事の日付が`1970/01/01 9:00`になってる
+- READMEが入ってない
+
+ところでドキュメント見てたらconfig例見つけた: https://github.com/obsidian-html/obsidian-html.github.io/tree/main/__src
+
+↓は[config_v3.yml](https://github.com/obsidian-html/obsidian-html.github.io/blob/main/__src/config_v3.yml)から引用
+
+```yml
+    rss:
+      enabled: True
+      host_root: 'https://obsidian-html.github.io/'
+      styling: 
+        show_icon: True
+      channel: 
+        title: 'ObsidianHtml/Documentation'
+        website_link: 'https://obsidian-html.github.io'
+        description: 'The documentation site of ObsidianHtml, a package used to convert Obsidian notes to proper markdown and static HTML websites.'
+        language_code: 'en-us'
+        managing_editor: 'collector@dwrolvink.com'
+        web_master: 'collector@dwrolvink.com'
+      items:
+        selector: 
+          match_keys: ['yaml','tags', ['']]
+          exclude_keys: ['yaml','tags', ['type/moc']]
+          include_subfolders: ['Log', 'Changelog']
+          exclude_subfolders: ['.git', 'md', 'index_from_tags', 'obs.html','__src']
+          exclude_files: ['not_created.html', 'index.html']
+        description:
+          selectors:
+            - ['yaml','rss:description']
+            - ['first-paragraphs', 2, '<br/><br/>']
+            - ['first-header', 1]
+        title: 
+          selectors: 
+            - ['yaml','rss:title']
+            - ['first-header', 1]
+            - ['path', ['parent',1], '/ ', ['stem']]
+        publish_date: 
+          selectors: 
+            - ['yaml','rss:publish_date']
+            - ['yaml_strip','tags',['date/']]
+          iso_formatted: True
+          format_string: '' #'%Y-%m-%d'
+          default_value: '1999-12-31'
+```
 
 ## 気になったとこ/TODO
 
