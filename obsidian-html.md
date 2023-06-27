@@ -65,7 +65,25 @@ features:
 
 ドキュメント: [RSS Feed - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/features/rss-feed.html)
 
-TODO
+ここではcommit連ねる形で記録
+
+[🚧 Enable RSS(WIP) · H1rono/scrap@ecf98d9](https://github.com/H1rono/scrap/commit/ecf98d94de0f736745c5af3519e6ad1291f6fcc3)
+
+```yml
+    rss:
+      enabled: True
+      host_root: "https://h1rono.github.io/scrap"
+      styling:
+        show_icon: True
+      channel:
+        title: "H1rono/scrap"
+        website_link: "https://h1rono.github.io/scrap"
+        description: "Obsidianメモ置き場"
+        language_code: "ja-jp"
+```
+
+https://h1rono.github.io/scrap/obs.html/rss/feed.xml にフィード配信されてる
+が、[vivaldiのRSS機能]
 
 ## 気になったとこ/TODO
 
