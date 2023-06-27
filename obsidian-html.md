@@ -97,7 +97,7 @@ file_exports:
 
 ## faviconの設定
 
-[参考commit](https://github.com/H1rono/scrap/commit/17fa3af72f16f830614ac5e991a1312278ff6533)
+commit: [🔧 Configure favicon · H1rono/scrap@17fa3af](https://github.com/H1rono/scrap/commit/17fa3af72f16f830614ac5e991a1312278ff6533)
 該当ドキュメント: [Export vault files to html output - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/tweaking/export-vault-files-to-html-output.html)
 
 [Configuration Options - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/configuration-options.html)のページに書いてなくて焦った
@@ -199,10 +199,14 @@ vivaldiが悪いんだろうけど、1970/01/01の記事が残って2023/06/25�
 ```
 
 早速ドキュメントと違うんですが...
+とりあえずTrueにしちゃうか
+
+[🔧 Enable toc · H1rono/scrap@d99fa87](https://github.com/H1rono/scrap/commit/d99fa87a0c232c3321093d12d5f70f44a6ac670b)
+
+いい感じになった
 
 ## 気になったとこ/TODO
 
 - タイトルどうにかなりませんか
     - どのページも`site_name`に指定したものになってる
 - プラグイン入れられるんだろうか
-- ページ右側のカラムがTOCになるはずなのになってない
