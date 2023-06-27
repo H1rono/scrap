@@ -216,9 +216,9 @@ toggles:
       layout: documentation # documentation, tabs, minimal
       header_template: full # <full, minimal> currently only supported for documentation layout
       max_note_width: 120rem # not supported for layout: tabs
-      add_toc: "<DEPRECATED>" # add "[TOC]" (Table of Contents) when missing
-      toc_pane: "<DEPRECATED>" # removes table of contents from the note and puts it in the right pane (not supported for layout:tabs)
-      flip_panes: "<DEPRECATED>" # switch right and left pane around. (does nothing unless in documentation layout.)
+      add_toc: True # add "[TOC]" (Table of Contents) when missing
+      toc_pane: True # removes table of contents from the note and puts it in the right pane (not supported for layout:tabs)
+      flip_panes: False # switch right and left pane around. (does nothing unless in documentation layout.)
       add_dir_list: True # show directory contents in one of the panes (only documentation layout)
       accent_color: "65, 76, 253"
       loading_bg_color: "255, 255, 255"
