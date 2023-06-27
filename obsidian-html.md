@@ -1,3 +1,8 @@
+---
+rss:
+  publish_date: 2023-06-25
+---
+
 # obsidian-html使った
 
 repo: [obsidian-html/obsidian-html: Python code to convert Obsidian notes to proper markdown and optionally to create an html site too.](https://github.com/obsidian-html/obsidian-html)
@@ -67,7 +72,7 @@ features:
 
 ここではcommit連ねる形で記録
 
-[🚧 Enable RSS(WIP) · H1rono/scrap@ecf98d9](https://github.com/H1rono/scrap/commit/ecf98d94de0f736745c5af3519e6ad1291f6fcc3)
+**[🚧 Enable RSS(WIP) · H1rono/scrap@ecf98d9](https://github.com/H1rono/scrap/commit/ecf98d94de0f736745c5af3519e6ad1291f6fcc3)**
 
 ```yml
     rss:
@@ -137,10 +142,15 @@ yaml frontmatter手書きしないといけなさそう😇
 
 んーとりあえず日付は手書きするとして、README含めるのは`rss.items.exclude_files`いじったら良さそう
 
+**[🔧 Update config of rss · H1rono/scrap@4aff7b5](https://github.com/H1rono/scrap/commit/4aff7b59092249b1bdd6fbafd5c2d5f4f1e7da65)**
+
+vivaldiが悪いんだろうけど、1970/01/01の記事が残って2023/06/25の記事が新たに生成された
+
+まあ動いてそうなので解決
+
 ## 気になったとこ/TODO
 
 - タイトルどうにかなりませんか
     - どのページも`site_name`に指定したものになってる
-- RSS
 - プラグイン入れられるんだろうか
 - ページ右側のカラムがTOCになるはずなのになってない

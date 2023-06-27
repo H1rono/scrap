@@ -1,3 +1,8 @@
+---
+rss:
+  publish_date: 2023-06-25
+---
+
 # このリポジトリのGitHub Actions
 
 ファイル本体: https://github.com/H1rono/scrap/blob/75da266b2eefedc089c8bded3b337f8bc3ffa459/.github/workflows/obsidian-html.yml
