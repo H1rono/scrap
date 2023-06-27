@@ -54,10 +54,46 @@ file_exports:
 # これデフォルトだとコメントアウトされてなくてエラーになる
 # no_tabs: "<REMOVED>"
 
-features:
-  rss:
-    TODO  # まだ未設定
+# rss配信の設定
+    rss:
+      enabled: True
+      host_root: "https://h1rono.github.io/scrap"
+      styling:
+        show_icon: True
+      channel:
+        title: "H1rono/scrap"
+        website_link: "https://h1rono.github.io/scrap"
+        description: "Obsidianメモ置き場"
+        language_code: "ja-jp"
+        managing_editor: "H1rono <hronok66@gmail.com>"
+        web_master: "H1rono <hronok66@gmail.com>"
+      items:
+        selector:
+          match_keys: []
+          exclude_keys: []
+          include_subfolders: []
+          exclude_subfolders: [".git", "obs.html"]
+          exclude_files: ["not_created.html"]
+        description:
+          selectors:
+            - ["yaml", "rss:description"]
+            - ["first-paragraphs", 2, "<br/><br/>"]
+            - ["first-header", 1]
+        title:
+          selectors:
+            - ["yaml", "rss:title"]
+            - ["first-header", 1]
+            - ["path", ["parent", 1], "/", ["stem"]]
+        publish_date:
+          selectors:
+            - ["yaml", "rss:publish_date"]
+            - ["yaml_strip", "tags", ["date/"]]
+          iso_formatted: True
+          format_string: "" #'%Y-%m-%d'
+          default_value: "2023-06-25"
 ```
+
+[RSS](#RSS)で触れたけどconfig例あった: https://github.com/obsidian-html/obsidian-html.github.io/tree/main/__src
 
 ## faviconの設定
 
@@ -68,7 +104,7 @@ features:
 
 ## RSS
 
-ドキュメント: [RSS Feed - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/features/rss-feed.html)
+該当ドキュメント: [RSS Feed - ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/features/rss-feed.html)
 
 ここではcommit連ねる形で記録
 
@@ -147,6 +183,22 @@ yaml frontmatter手書きしないといけなさそう😇
 vivaldiが悪いんだろうけど、1970/01/01の記事が残って2023/06/25の記事が新たに生成された
 
 まあ動いてそうなので解決
+
+## TOCどこだよ
+
+該当ドキュメント: [ObsidianHtml/Documentation](https://obsidian-html.github.io/configurations/styling/styling.html#!table-of-contents)
+
+生成された該当設定↓
+
+```yml
+  features:
+    styling:
+      add_toc: "<DEPRECATED>"
+      toc_pane: "<DEPRECATED>"
+      flip_panes: "<DEPRECATED>"
+```
+
+早速ドキュメントと違うんですが...
 
 ## 気になったとこ/TODO
 
