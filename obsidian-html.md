@@ -131,6 +131,12 @@ https://h1rono.github.io/scrap/obs.html/rss/feed.xml にフィード配信され
           default_value: '1999-12-31'
 ```
 
+日付設定は[Selector function](https://obsidian-html.github.io/configurations/features/rss-feed.html#!selector-functions)というやつで決まるらしい
+yaml frontmatter手書きしないといけなさそう😇
+いっそのことdaily notesだけrssに流すとかしてもいいかも？いや日記を書くつもりは現状なくて...
+
+んーとりあえず日付は手書きするとして、README含めるのは`rss.items.exclude_files`いじったら良さそう
+
 ## 気になったとこ/TODO
 
 - タイトルどうにかなりませんか
