@@ -5,6 +5,8 @@ rss:
 
 # このリポジトリのGitHub Actions
 
+tags: #github-actions #github-pages #obsidian-html #python
+
 ファイル本体: https://github.com/H1rono/scrap/blob/75da266b2eefedc089c8bded3b337f8bc3ffa459/.github/workflows/obsidian-html.yml
 
 - [[obsidian-html]]
@@ -21,4 +23,4 @@ rss:
 - GitHub Pages使ってるworkflow: [2023_robokit/.github/workflows/main.yml at main · rogy-AquaLab/2023_robokit · GitHub](https://github.com/rogy-AquaLab/2023_robokit/blob/main/.github/workflows/main.yml)
 - Python使ってるworkflow: [stam-prolog/.github/workflows/python.yml at main · traP-jp/stam-prolog · GitHub](https://github.com/traP-jp/stam-prolog/blob/main/.github/workflows/python.yml)
 
-動くworkflowファイル参考にしたら間違いない
+過去の自分が動かしたworkflowファイル参考にしたら間違いない
