@@ -203,9 +203,13 @@ vivaldiが悪いんだろうけど、1970/01/01の記事が残って2023/06/25�
 早速ドキュメントと違うんですが...
 とりあえずTrueにしちゃうか
 
-[🔧 Enable toc · H1rono/scrap@d99fa87](https://github.com/H1rono/scrap/commit/d99fa87a0c232c3321093d12d5f70f44a6ac670b)
+**[🔧 Enable toc · H1rono/scrap@d99fa87](https://github.com/H1rono/scrap/commit/d99fa87a0c232c3321093d12d5f70f44a6ac670b)**
 
 いい感じになった
+
+## RSS2
+
+[[strategy#具体的な方針]]
 
 ## 気になったとこ/TODO
 
