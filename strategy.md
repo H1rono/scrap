@@ -1,6 +1,6 @@
 # scrap運営戦略
 
-tags: #obsidian
+tags: #obsidian #strategy
 
 雑に考えます
 
@@ -74,6 +74,6 @@ tags:
 - シリーズものはフォルダにまとめる
 - それ以外はルート直下に←マジで？
 
-TODO: template作る、daily noteのルールもうちょい明文化する
+あとでtemplate作る、daily noteのルールもうちょい明文化する
 
 ここの内容はfreezeして編集は[[daily-note]]でやります
