@@ -52,8 +52,22 @@ tags: #obsidian
 
 - 毎日何かしら書く
     - これはscrapが育ってきたらやめていい
-- daily noteを↓の形式でとる
+- daily noteを↓の形式でとる(パスは`YYYY/MM/DD`)
 
 ```md
+---
+rss:
+  publish_date: YYYY-MM-DD
+---
 
+# 📅 #YYYY/MM/DD
+
+## 今日書いたノート
+
+- [[hoge]]
+- [[fuga]]
+
+## ひとこと感想
+
+眠い。Rust楽しい
 ```
