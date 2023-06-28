@@ -13,3 +13,4 @@ Obsidianメモ置き場
 - [このリポジトリのGHA構成](./gha-scrap.md)
 - [obsidian-html使った](./obsidian-html.md)
 - [scrap運営戦略](./strategy.md)
+- [2023](./2023/index.md)
