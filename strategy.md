@@ -33,7 +33,7 @@ tags: #obsidian
 **孤立してはいけない、習慣化したい**
 
 - daily noteで「今日はこれをやった」というのを積み重ねればいいかも
-    - [[obsidian-html#RSS|RSS配信]]はこのdaily noteだけに絞るとfrontmatter周りで楽になる？
+    - [[obsidian-html#RSS|RSS配信]]はこのdaily noteだけに絞るとyaml frontmatter周りで楽になる？
 - タグで日付入れるのもアリ🐜
     - [[obsidian-html]]がタグ → RSSをサポートしてるか怪しい
     - 既存のノートに追記する時もやりやすい
@@ -46,4 +46,14 @@ tags: #obsidian
 - とは言ってもこれで作業効率が落ちるのは避けたい
 - 一度やって「後でやるか」となったら**絶対にやらない**のでしょうがないか
 
+## 運用ルール
 
+#2023/06/28 最新版
+
+- 毎日何かしら書く
+    - これはscrapが育ってきたらやめていい
+- daily noteを↓の形式でとる
+
+```md
+
+```
