@@ -55,8 +55,6 @@ tags: #obsidian
 
 ```md
 ---
-rss:
-  publish_date: YYYY/MM/DD
 tags:
   - 📅/YYYY/MM/DD
 ---
@@ -77,3 +75,5 @@ tags:
 - それ以外はルート直下に←マジで？
 
 TODO: template作る、daily noteのルールもうちょい明文化する
+
+ここの内容はfreezeして編集は[[daily-note]]でやります

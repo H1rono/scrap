@@ -204,12 +204,18 @@ vivaldiが悪いんだろうけど、1970/01/01の記事が残って2023/06/25�
 
 ## RSS2
 
+#📅/2023/06/28 に追記
+
 [[strategy#具体的な方針]]で書いた通りに設定直します
 
 - matcherでフィルタかける
 - publish_dateの指定いじる
 
-あとeditorとかの設定で`<>`使ってるのがよろしくなさそうだった
+あとeditorとかの設定で`<>`とかXMLに干渉しそうな文字使ってるのがよろしくなさそうだった(こんぐらいならPR出せそう)
+
+**[🔧 Update config of rss · H1rono/scrap@40dbb55](https://github.com/H1rono/scrap/commit/40dbb551fb706e1c2f056e56ddce2a58da2db4a8)**
+
+完
 
 ## 気になったとこ/TODO
 
