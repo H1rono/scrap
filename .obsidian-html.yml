@@ -297,11 +297,11 @@ toggles:
         website_link: "https://h1rono.github.io/scrap"
         description: "Obsidianメモ置き場"
         language_code: "ja-jp"
-        managing_editor: "H1rono <hronok66@gmail.com>"
-        web_master: "H1rono <hronok66@gmail.com>"
+        managing_editor: "hronok66@gmail.com"
+        web_master: "hronok66@gmail.com"
       items:
         selector:
-          match_keys: []
+          match_keys: ["yaml", "tags", ["📅/"]]
           exclude_keys: []
           include_subfolders: []
           exclude_subfolders: [".git", "obs.html"]
@@ -319,10 +319,10 @@ toggles:
         publish_date:
           selectors:
             - ["yaml", "rss:publish_date"]
-            - ["yaml_strip", "tags", ["date/"]]
-          iso_formatted: True
-          format_string: "" #'%Y-%m-%d'
-          default_value: "2023-06-25"
+            - ["yaml_strip", "tags", ["📅/"]]
+          iso_formatted: False
+          format_string: "%Y/%m/%d" #'%Y-%m-%d'
+          default_value: "2023/06/25"
 
     create_index_from_dir_structure:
       enabled: True
