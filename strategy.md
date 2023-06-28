@@ -76,4 +76,4 @@ tags:
 - シリーズものはフォルダにまとめる
 - それ以外はルート直下に←マジで？
 
-TODO: template作る
+TODO: template作る、daily noteのルールもうちょい明文化する

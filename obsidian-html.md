@@ -134,9 +134,9 @@ https://h1rono.github.io/scrap/obs.html/rss/feed.xml にフィード配信され
     rss:
       enabled: True
       host_root: 'https://obsidian-html.github.io/'
-      styling: 
+      styling:
         show_icon: True
-      channel: 
+      channel:
         title: 'ObsidianHtml/Documentation'
         website_link: 'https://obsidian-html.github.io'
         description: 'The documentation site of ObsidianHtml, a package used to convert Obsidian notes to proper markdown and static HTML websites.'
@@ -144,7 +144,7 @@ https://h1rono.github.io/scrap/obs.html/rss/feed.xml にフィード配信され
         managing_editor: 'collector@dwrolvink.com'
         web_master: 'collector@dwrolvink.com'
       items:
-        selector: 
+        selector:
           match_keys: ['yaml','tags', ['']]
           exclude_keys: ['yaml','tags', ['type/moc']]
           include_subfolders: ['Log', 'Changelog']
@@ -155,13 +155,13 @@ https://h1rono.github.io/scrap/obs.html/rss/feed.xml にフィード配信され
             - ['yaml','rss:description']
             - ['first-paragraphs', 2, '<br/><br/>']
             - ['first-header', 1]
-        title: 
-          selectors: 
+        title:
+          selectors:
             - ['yaml','rss:title']
             - ['first-header', 1]
             - ['path', ['parent',1], '/ ', ['stem']]
-        publish_date: 
-          selectors: 
+        publish_date:
+          selectors:
             - ['yaml','rss:publish_date']
             - ['yaml_strip','tags',['date/']]
           iso_formatted: True
@@ -208,6 +208,8 @@ vivaldiが悪いんだろうけど、1970/01/01の記事が残って2023/06/25�
 
 - matcherでフィルタかける
 - publish_dateの指定いじる
+
+あとeditorとかの設定で`<>`使ってるのがよろしくなさそうだった
 
 ## 気になったとこ/TODO
 
