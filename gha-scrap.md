@@ -1,8 +1,3 @@
----
-rss:
-  publish_date: 2023-06-25
----
-
 # このリポジトリのGitHub Actions
 
 tags: #github-actions #github-pages #obsidian-html #python

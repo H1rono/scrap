@@ -1,8 +1,3 @@
----
-rss:
-  publish_date: 2023-06-25
----
-
 # obsidian-html使った
 
 tags: #obsidian-html #obsidian

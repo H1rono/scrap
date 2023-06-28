@@ -1,8 +1,3 @@
----
-rss:
-  publish_date: 2023-06-28
----
-
 # scrap運営戦略
 
 tags: #obsidian
