@@ -62,6 +62,8 @@ tags: #obsidian
 ---
 rss:
   publish_date: YYYY-MM-DD
+tags:
+  - diary
 ---
 
 # 📅 #YYYY/MM/DD
