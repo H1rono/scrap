@@ -16,3 +16,7 @@ tags: #obsidian
 - [日本語で書かれている Obsidian Publish サイト - nNodes](https://notes.naney.org/Notes/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%A7%E6%9B%B8%E3%81%8B%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B+Obsidian+Publish+%E3%82%B5%E3%82%A4%E3%83%88)
 
 ## 欲しいもの/やりたいこと
+
+- H1ronoとしてやったこと全てを記したい
+- 習慣化
+- [Minerva](https://minerva.mamansoft.net/Home)を目標にしたい
