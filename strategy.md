@@ -27,3 +27,13 @@ tags: #obsidian
 - 続かない
 - わかりづらい
 - 孤立したノートが存在する
+
+## 具体的な方針
+
+**孤立してはいけない、習慣化したい**
+
+- daily noteで「今日はこれをやった」というのを積み重ねればいいかも
+    - [[obsidian-html#RSS|RSS配信]]はこのdaily noteだけに絞るとfrontmatter周りで楽になる？
+- タグで日付入れるのもアリ🐜
+    - obsidian-h
+- H1ronoの生活習慣的に、daily noteを日記的につけるのは厳しい
