@@ -52,7 +52,7 @@ tags: #obsidian
 
 ## 運用ルール
 
-#2023/06/28 時点
+#📅/2023/06/28 時点
 
 - 毎日何かしら書く
     - これはscrapが育ってきたらやめていい
@@ -61,12 +61,12 @@ tags: #obsidian
 ```md
 ---
 rss:
-  publish_date: YYYY-MM-DD
+  publish_date: YYYY/MM/DD
 tags:
-  - diary
+  - 📅/YYYY/MM/DD
 ---
 
-# 📅 #YYYY/MM/DD
+# 📅 YYYY/MM/DD
 
 ## 今日書いたノート
 
@@ -80,3 +80,5 @@ tags:
 
 - シリーズものはフォルダにまとめる
 - それ以外はルート直下に←マジで？
+
+TODO: template作る
