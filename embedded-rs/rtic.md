@@ -21,4 +21,17 @@ Real-Time Interrupt-driven Concurrencyの略。
 
 ### マクロが多い
 
+```rust
+#[rtic::app(...)]
+mod app {
+    #[shared]
+    struct Shared { ... }
+    #[local]
+    struct Local { ... }
+    #[init]
+    fn init(c: init::Context) ...
+    ...
+}
+```
 
+modにマクロが付く時点でつらい。ファイル分割を考えたとｋ
