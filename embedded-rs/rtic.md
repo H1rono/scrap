@@ -3,6 +3,11 @@
 tags: #embedded #rust
 
 [Preface - Real-Time Interrupt-driven Concurrency](https://rtic.rs/2/book/en/preface.html)
+[rtic - Rust](https://docs.rs/cortex-m-rtic/latest/rtic/) (docs.rs)
+[rtic-rs/rtic: Real-Time Interrupt-driven Concurrency (RTIC) framework for ARM Cortex-M microcontrollers](https://github.com/rtic-rs/rtic)
+[RTICメモ](https://zenn.dev/ciniml/articles/rust-rtic-memo) (Zenn)
+
+Real-Time Interrupt-driven Concurrencyの略。
 
 ## とてもつらい
 
