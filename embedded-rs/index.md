@@ -6,7 +6,7 @@ tags: #embedded #rust
 
 ## MOC
 
-
+- [[./rtic]]
 
 ## 参考文献
 
@@ -14,3 +14,7 @@ tags: #embedded #rust
 - [Raspberry Pi PicoとRustを使って組み込み開発に入門してみました｜エウスケ](https://note.com/euskace/n/n4780b880857c)
 - [Introduction - The Embedded Rust Book](https://doc.rust-lang.org/beta/embedded-book/intro/index.html)
 - [はじめに - Embedded Rust Techniques](https://tomoyuki-nakabayashi.github.io/embedded-rust-techniques/01-introduction/introduction.html)
+
+## 開発リポジトリ
+
+- [H1rono/rp-rs-stacks: samples using rp-rs](https://github.com/H1rono/rp-rs-stacks)
