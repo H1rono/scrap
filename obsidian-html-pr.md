@@ -53,8 +53,28 @@ $ touch index.md
 $ obsidianhtml convert -i config.yml
 ```
 
+v4から`obsidianhtml run`でserveができなくなったようなので↓
+
+```bash
+$ python -m http.server -d output/html 8080
+```
+
 ## タグの始まりがemojiだとタグとして認識されない
 
 non-asciiだといけない？要検証
+
+---
+
+index.md↓
+
+```md
+# index
+
+#📝
+
+#タグ
+```
+
+生成結果: `#📝`も`#タグ`も`h1`として認識された
 
 ## `rss:managing_editor`に`<>`を使ったらXMLと干渉する
