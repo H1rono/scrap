@@ -82,9 +82,10 @@ index.md↓
 
 ![[obsidian-tag-test.png]]
 
-問題点は2つかな
+問題点は3つかな
 
 - `#`の次にnon-ASCIIな文字が続くとtagとして認識されない
 - 空白をstripした後の行頭に`#`があってtagでなければ`hn`になる
+- 空白をstripするので、インデントでコードブロックにならない
 
 ## `rss:managing_editor`に`<>`を使ったらXMLと干渉する
