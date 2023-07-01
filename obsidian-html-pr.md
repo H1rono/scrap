@@ -33,10 +33,24 @@ config生成
 $ obisidanhtml export default-config -o config.yml
 ```
 
-ちょっといじる
+ちょっといじる 以下diffだけ
 
 ```diff
+- obsidian_folder_path_str: '<DEPRECATED>'
++ # obsidian_folder_path_str: '<DEPRECATED>'
 
+- obsidian_entrypoint_path_str: '<REQUIRED_INPUT>'
++ obsidian_entrypoint_path_str: "index.md"
+
+- no_tabs: '<REMOVED>'
++ # no_tabs: "<REMOVED>"
+```
+
+entrypointタッチしてからconvert
+
+```bash
+$ touch index.md
+$ obsidianhtml convert -i config.yml
 ```
 
 ## タグの始まりがemojiだとタグとして認識されない
