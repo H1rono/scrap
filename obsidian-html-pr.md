@@ -123,6 +123,8 @@ Obsidianでは、`#📝`と`#タグ`はタグ、`#?-tag`は地の文として認
 
 DeepLして投げる
 
+[Non-ASCII characters are not recognized as tags and become h1 · Issue #743 · obsidian-html/obsidian-html](https://github.com/obsidian-html/obsidian-html/issues/743)
+
 ## `rss:managing_editor`に`<>`を使ったらXMLと干渉する
 
 titleとかもなりそう
